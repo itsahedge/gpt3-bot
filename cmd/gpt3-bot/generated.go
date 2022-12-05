@@ -1,4 +1,4 @@
-package open_ai
+package gpt3_bot
 
 import (
 	"encoding/json"
@@ -8,7 +8,7 @@ import (
 	"net/http"
 )
 
-// Structure for the Coingecko Ethereum Price API 
+// Structure for the Coingecko Ethereum Price API
 type EthereumPrice struct {
 	MarketPriceUsd float64 `json:"market_data"`
 }

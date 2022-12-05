@@ -1,4 +1,4 @@
-package open_ai
+package gpt3_bot
 
 import (
 	"context"
